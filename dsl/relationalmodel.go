@@ -6,10 +6,10 @@ import (
 
 	"bitbucket.org/pkg/inflect"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
-	"github.com/goadesign/goa/goagen/codegen"
-	"github.com/goadesign/gorma"
+	"github.com/seesaa/goa/design"
+	"github.com/seesaa/goa/dslengine"
+	"github.com/seesaa/goa/goagen/codegen"
+	"github.com/seesaa/gorma"
 	"github.com/jinzhu/inflection"
 )
 

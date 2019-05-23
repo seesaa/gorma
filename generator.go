@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/goagen/codegen"
-	"github.com/goadesign/goa/goagen/utils"
+	"github.com/seesaa/goa/design"
+	"github.com/seesaa/goa/goagen/codegen"
+	"github.com/seesaa/goa/goagen/utils"
 )
 
 // Generator is the application code generator.
@@ -107,7 +107,7 @@ func (g *Generator) generateUserTypes(outdir string, api *design.APIDefinition) 
 				codegen.SimpleImport(g.appPkgPath),
 				codegen.SimpleImport("context"),
 				codegen.SimpleImport("time"),
-				codegen.SimpleImport("github.com/goadesign/goa"),
+				codegen.SimpleImport("github.com/seesaa/goa"),
 				codegen.SimpleImport("github.com/jinzhu/gorm"),
 				codegen.SimpleImport("github.com/gofrs/uuid"),
 			}
@@ -170,7 +170,7 @@ func (g *Generator) generateUserHelpers(outdir string, api *design.APIDefinition
 				codegen.SimpleImport(g.appPkgPath),
 				codegen.SimpleImport("context"),
 				codegen.SimpleImport("time"),
-				codegen.SimpleImport("github.com/goadesign/goa"),
+				codegen.SimpleImport("github.com/seesaa/goa"),
 				codegen.SimpleImport("github.com/jinzhu/gorm"),
 				codegen.NewImport("uuid", "github.com/satori/go.uuid"),
 			}

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/goa/dslengine"
+	"github.com/seesaa/goa/design"
+	"github.com/seesaa/goa/dslengine"
 )
 
 // NewRelationalFieldDefinition returns an initialized

@@ -1,11 +1,11 @@
 package dsl_test
 
 import (
-	"github.com/goadesign/gorma"
-	gdsl "github.com/goadesign/gorma/dsl"
+	"github.com/seesaa/gorma"
+	gdsl "github.com/seesaa/gorma/dsl"
 
-	. "github.com/goadesign/goa/design"
-	. "github.com/goadesign/goa/dslengine"
+	. "github.com/seesaa/goa/design"
+	. "github.com/seesaa/goa/dslengine"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

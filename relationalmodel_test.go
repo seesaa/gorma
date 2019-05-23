@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goadesign/goa/design"
-	"github.com/goadesign/gorma"
-	"github.com/goadesign/gorma/dsl"
+	"github.com/seesaa/goa/design"
+	"github.com/seesaa/gorma"
+	"github.com/seesaa/gorma/dsl"
 )
 
 func TestModelContext(t *testing.T) {
