@@ -4,13 +4,13 @@ import (
 	"strconv"
 	"strings"
 
-	"bitbucket.org/pkg/inflect"
+	"github.com/volatiletech/inflect"
 
+	"github.com/jinzhu/inflection"
 	"github.com/seesaa/goa/design"
 	"github.com/seesaa/goa/dslengine"
 	"github.com/seesaa/goa/goagen/codegen"
 	"github.com/seesaa/gorma"
-	"github.com/jinzhu/inflection"
 )
 
 // Model is the DSL that represents a Relational Model.

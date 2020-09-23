@@ -6,12 +6,12 @@ import (
 	"strings"
 	"unicode"
 
-	"bitbucket.org/pkg/inflect"
+	"github.com/volatiletech/inflect"
 
+	"github.com/jinzhu/inflection"
 	"github.com/seesaa/goa/design"
 	"github.com/seesaa/goa/dslengine"
 	"github.com/seesaa/goa/goagen/codegen"
-	"github.com/jinzhu/inflection"
 )
 
 // NewRelationalModelDefinition returns an initialized

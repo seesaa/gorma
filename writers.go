@@ -6,12 +6,12 @@ import (
 	"strings"
 	"text/template"
 
-	"bitbucket.org/pkg/inflect"
+	"github.com/volatiletech/inflect"
 
-	"github.com/seesaa/goa/design"
-	"github.com/seesaa/goa/goagen/codegen"
 	"github.com/jinzhu/inflection"
 	"github.com/kr/pretty"
+	"github.com/seesaa/goa/design"
+	"github.com/seesaa/goa/goagen/codegen"
 )
 
 type (
